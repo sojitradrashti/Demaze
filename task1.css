@@ -1,0 +1,136 @@
+html{
+    overflow:hidden;
+}
+*{
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+}
+body{
+    font-family: 'poppins', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.class1{
+    height:50px;
+    position:relative;
+    background-position: center;
+    background-size: cover; 
+    /* border-bottom: 2px solid black; */
+    padding: 5px; 
+    box-shadow: rgb(121,185,201); 
+}
+.logo{
+    margin-left:80px;
+    color:blueviolet;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    min-height: 10vh;
+    padding-top: 20px;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    height: 5%;
+    padding-top:10px;
+    justify-content: space-between;
+    left:10%;
+    size:100px;
+
+}
+.text{
+    margin-top:15px;
+    font-size: x-large;
+    
+}
+.text1{
+    justify-content: space-between;
+}
+.nav-items{
+    display: flex;
+    color: black;
+    justify-content: space-between;
+    text-align: center;
+    gap:60px;
+    margin-top: 5px;
+    list-style-type: none;
+}
+mark{
+    color:blueviolet;
+    background-color: rgb(238,247,242);
+}
+.btn{
+    border-radius:5px;
+    padding:10px;
+    margin-right:80px;
+}
+.class2{
+    height:80%;
+    position:relative;
+    background-position: center;
+    background-size: cover;
+    background-color: rgb(238,247,242);
+}
+.class21{
+    width: 50%;
+    color: black;
+    margin-top: 10%;
+    float: left;
+    margin-left:90px;
+}
+.text1{
+    margin:0px;
+}
+.button{
+    display:flex;
+    margin:20px 20px 0 0;
+    gap:20px;
+    padding: 8px;
+    
+}
+.button1{
+    border-radius: 10px;
+    width:18vh;
+    padding: 10px;
+    background-color: blueviolet;
+}
+.button2{
+    border-radius: 10px;
+    width:18vh;
+    padding: 10px; 
+}
+.class22{
+
+    background-color: rgb(238,247,242);
+    height: 80%;
+}
+.image{
+    margin:10px 10px 0px 0px;
+    display: flex;
+}
+.footer{
+    display: flex;
+    height:120px;
+    padding:1% 10% 0 15%;
+    background-color: rgb(1,25,55);
+    font-family: Outfit;
+}
+.container{
+    margin-top: 2px;
+}
+.item-numbers{
+    display:flex;
+    gap:20vh;
+    justify-content: space-between;
+    color: white;
+}
+.num-text{
+    justify-content: space-between;
+    display:flex;
+    color:white;
+    gap:30vh;
+}
+
